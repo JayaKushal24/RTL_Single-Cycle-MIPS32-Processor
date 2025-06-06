@@ -10,10 +10,6 @@ This project is a Verilog-based implementation of a single-cycle CPU architectur
 > Through this project, I successfully developed a working MIPS32 processor capable of executing a variety of basic R-type and I-type instructions.  
 > This hands-on experience significantly enhanced my practical knowledge of computer architecture, RTL design, and the functional flow of instruction execution in a CPU.
 
-## 🧠 Overview
-
-The processor executes MIPS32 instructions in a single clock cycle per instruction. It supports R-type, I-type, memory (lw/sw), and branching (beq) instructions. Simulation waveforms and test programs verify its correctness.
-
 
 ## 🧱 Architecture 
 
