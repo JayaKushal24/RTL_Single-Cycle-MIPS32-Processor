@@ -5,13 +5,15 @@
 
 This project is a Verilog-based implementation of a single-cycle CPU architecture adhering to the MIPS32 Instruction Set Architecture (ISA). It is part of a personal initiative to strengthen understanding in computer architecture and RTL design.
 
----
+> This project was undertaken as a personal learning initiative to deepen my understanding of processor architecture, digital design, and the MIPS32 instruction set.  
+> The goal was to implement a functional single-cycle processor entirely in Verilog, simulating core components such as instruction decoding, register file handling, memory operations, and ALU computations.  
+> Through this project, I successfully developed a working MIPS32 processor capable of executing a variety of basic R-type and I-type instructions.  
+> This hands-on experience significantly enhanced my practical knowledge of computer architecture, RTL design, and the functional flow of instruction execution in a CPU.
 
 ## 🧠 Overview
 
 The processor executes MIPS32 instructions in a single clock cycle per instruction. It supports R-type, I-type, memory (lw/sw), and branching (beq) instructions. Simulation waveforms and test programs verify its correctness.
 
----
 
 ## 🧱 Architecture 
 
@@ -35,7 +37,7 @@ This processor was designed based on the standard single-cycle MIPS32 architectu
 - **Shift Left 2 & Branch Adder:** Used for branch address computation.
 - **Branch Logic:** Determines branch condition.
 
----
+
 
 ## 🔍 Sample Instruction Set
 
@@ -56,7 +58,6 @@ This processor was designed based on the standard single-cycle MIPS32 architectu
 | 0x30    | 200E0002    | addi $t6, $zero, 2 |
 | 0x34    | 200E0003    | addi $t6, $zero, 3 |
 
----
 
 ## 🛠️ Simulation Instructions
 
@@ -66,7 +67,6 @@ This processor was designed based on the standard single-cycle MIPS32 architectu
 4. Run behavioral simulation.
 5. Inspect waveform to verify expected register/memory values.
 
----
 
 ## ✅ Result
 
