@@ -17,7 +17,7 @@ The processor executes MIPS32 instructions in a single clock cycle per instructi
 
 This processor was designed based on the standard single-cycle MIPS32 architecture shown below. All modules (PC, ALU, Register File, Control Unit, Data Memory, etc.) strictly adhere to this structure.
 
-![MIPS32 Architecture](./mips32_architecture.png)
+![MIPS32 Architecture](./Architecture_MIPS32.png)
 
 - **Program Counter (PC):** Holds address of the current instruction.
 - **Instruction Memory:** Outputs 32-bit instruction at the PC address.
