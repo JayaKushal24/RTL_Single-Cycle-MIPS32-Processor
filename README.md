@@ -17,7 +17,7 @@ To extend the processor's instruction set, the architecture was modified to impl
 ### 🗂 Location of Modified Design
 
 The updated architecture and Verilog source code with jump instruction support can be found in the following folder:  
-`/My Modified Architecture`
+`/My_Modified_Architecture`
 
 ### ✅ Results
 
@@ -50,22 +50,26 @@ This processor was designed based on the standard single-cycle MIPS32 architectu
 
 ## 🔍 Sample Instruction Set
 
-| Address | Instruction | Assembly |
-|---------|-------------|----------|
-| 0x00    | 20080004    | addi $t0, $zero, 4 |
-| 0x04    | 20090003    | addi $t1, $zero, 3 |
-| 0x08    | 01095020    | add  $t2, $t0, $t1 |
-| 0x0C    | 012A5822    | sub  $t3, $t1, $t2 |
-| 0x10    | AC0A0004    | sw   $t2, 4($zero) |
-| 0x14    | 8C0C0004    | lw   $t4, 4($zero) |
-| 0x18    | 110C0002    | beq  $t0, $t4, +2  |
-| 0x1C    | 200D0001    | addi $t5, $zero, 1 |
-| 0x20    | 200D0002    | addi $t5, $zero, 2 |
-| 0x24    | 11AD0001    | beq  $t5, $t5, +1  |
-| 0x28    | 200E00FF    | addi $t6, $zero, 255 |
-| 0x2C    | 200E0001    | addi $t6, $zero, 1 |
-| 0x30    | 200E0002    | addi $t6, $zero, 2 |
-| 0x34    | 200E0003    | addi $t6, $zero, 3 |
+| Address | Instruction | Assembly                   |
+|---------|-------------|----------------------------|
+| 0x00    | 20080005    | addi $t0, $zero, 5         |
+| 0x04    | 20090003    | addi $t1, $zero, 3         |
+| 0x08    | 01095020    | add  $t2, $t0, $t1        |
+| 0x0C    | 012A5822    | sub  $t3, $t1, $t2        |
+| 0x10    | AC0A0004    | sw   $t2, 4($zero)         |
+| 0x14    | 8C0C0004    | lw   $t4, 4($zero)         |
+| 0x18    | 110C0002    | beq  $t0, $t4, +2         |
+| 0x1C    | 200D0001    | addi $t5, $zero, 1         |
+| 0x20    | 200D0002    | addi $t5, $zero, 2         |
+| 0x24    | 11AD0001    | beq  $t5, $t5, +1         |
+| 0x28    | 200E00FF    | addi $t6, $zero, 255       |
+| 0x2C    | 200E0001    | addi $t6, $zero, 1         |
+| 0x30    | 200E0002    | addi $t6, $zero, 2         |
+| 0x34    | 200E0003    | addi $t6, $zero, 3         |
+| 0x38    | 08000011    | j    0x00000044           |
+| 0x3C    | 200F000A    | addi $t7, $zero, 10        |
+| 0x40    | 200F000B    | addi $t7, $zero, 11        |
+| 0x44    | 200F000C    | addi $t7, $zero, 12        |
 
 
 ## 🛠️ Simulation Instructions
