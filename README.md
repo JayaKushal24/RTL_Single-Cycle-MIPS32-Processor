@@ -17,7 +17,7 @@ To extend the processor's instruction set, the architecture was modified to impl
 ### 🗂 Location of Modified Design
 
 The updated architecture and Verilog source code with jump instruction support can be found in the following folder:  
-`/my_modified_architecture`
+`/My Modified Architecture`
 
 ### ✅ Results
 
