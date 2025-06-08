@@ -1,0 +1,17 @@
+The standard Architecture doesnt handle the Jump Instrcutions.
+so i modified the architecture a bit.
+
+on top of the existing arch, 
+
+    A)i created a module named JUMP , where 
+          jump_address = { PC_plus_4[31:28], instruction[25:0], 2'b00 };
+        (expalantion for this is given in my documentation)
+
+    B)i added a another mux in top level and instatiated the jump module..
+        1.the out of jump module goes to input 1 of mux and input 0 is pc+4 wire
+        2.the slect line for this comes from control block..so i modifed the control module to suport this..
+        3. the ouput of this goes to the pc_mux as input0.
+
+     C)Control Module:  opcode is added for jump instr..upon identifying jump is set to 1. if not then 0.
+  
+
