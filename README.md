@@ -10,6 +10,19 @@ This project is a Verilog-based implementation of a single-cycle CPU architectur
 > Through this project, I successfully developed a working MIPS32 processor capable of executing a variety of basic R-type and I-type instructions.  
 > This hands-on experience significantly enhanced my practical knowledge of computer architecture, RTL design, and the functional flow of instruction execution in a CPU.
 
+## 🔧Extension of Existing Architecture for Jump Instruction Support
+
+To extend the processor's instruction set, the architecture was modified to implement support for the **jump (j)** instruction.
+
+### 🗂 Location of Modified Design
+
+The updated architecture and Verilog source code with jump instruction support can be found in the following folder:  
+`/my_modified_architecture`
+
+### ✅ Results
+
+These modifications enabled successful execution of programs containing jump (`j`) instructions, verified by correct operation and waveform validation.
+
 
 ## 🧱 Architecture 
 
