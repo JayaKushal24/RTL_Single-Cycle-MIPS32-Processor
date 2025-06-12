@@ -1,7 +1,10 @@
 # Design_Single-Cycle-MIPS32-ISA-Custom-Processor
 
 **Author:** Yandrapu Jaya Kushal  
-**GitHub:** [jayakushal24](https://github.com/jayakushal24)
+**GitHub:** [ jayakushal24](https://github.com/jayakushal24)
+
+**REFERENCE**
+[COMPUTER ARCHITECTURE AND DESIGN THE HARDWARE/SOFTWARE INTERFACE 5TH EDITION  DAVID A.PATTERSON JOHN L.HENNESSY ](https://theswissbay.ch/pdf/Books/Computer%20science/Computer%20Organization%20and%20Design-%20The%20HW_SW%20Inteface%205th%20edition%20-%20David%20A.%20Patterson%20%26%20John%20L.%20Hennessy.pdf)
 
 This project is a Verilog-based implementation of a single-cycle CPU architecture adhering to the MIPS32 Instruction Set Architecture (ISA). It is part of a personal initiative to strengthen understanding in computer architecture and RTL design.
 
