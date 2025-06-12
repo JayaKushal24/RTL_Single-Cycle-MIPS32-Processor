@@ -37,8 +37,7 @@ This processor was designed based on the standard single-cycle MIPS32 architectu
 
 ![MIPS32 Architecture](./Architecture_MIPS32.png)
 
-📖 **Reference Architecture Source:**  
-[https://www.cs.nthu.edu.tw/~king/courses/cs4100/P51-proc.pdf](https://www.cs.nthu.edu.tw/~king/courses/cs4100/P51-proc.pdf)
+
 
 - **Program Counter (PC):** Holds address of the current instruction.
 - **Instruction Memory:** Outputs 32-bit instruction at the PC address.
